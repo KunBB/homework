@@ -21,8 +21,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('expert_policy_file', type=str)
     parser.add_argument('envname', type=str)
-    parser.add_argument('--render', action='store_true')
-    parser.add_argument("--max_timesteps", type=int)
+    parser.add_argument('--render', help='是否可视化仿真', action='store_true')
+    parser.add_argument("--max_timesteps", type=int, default=1000)
     parser.add_argument('--num_rollouts', type=int, default=20,
                         help='Number of expert roll outs')
     args = parser.parse_args()
