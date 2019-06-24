@@ -14,10 +14,10 @@ class Config(object):
                  dropout=0.5,
                  hidden_size=[128,512,64],
                  batch_size=256,
-                 lr=0.001,
+                 lr=0.0005,
                  itera=20,
                  train_itera=20,
-                 envname='Reacher-v2',
+                 envname='HalfCheetah-v2',
                  max_steps=1000):
         self.obs, self.actions = self._read_data(filename)
         self.n_features = self.obs.shape[1] # 状态特征数量
@@ -112,7 +112,7 @@ class NN(object):
         '''
         extra_update_ops = tf.get_collection(tf.GraphKeys.UPDATE_OPS) # 用于BatchNormlization  https://blog.csdn.net/huitailangyz/article/details/85015611
         with tf.control_dependencies(extra_update_ops): # 先执行extra_update_ops才能执行后续步骤(计算mean和variance)
-            learning_rate = tf.train.exponential_decay(self.config.lr, self.global_step, 10, 0.8, staircase=False)
+            learning_rate = tf.train.exponential_decay(self.config.lr, self.global_step, 1000, 1, staircase=False)
             train_op = tf.train.AdamOptimizer(learning_rate).minimize(loss, global_step=self.global_step)
         tf.summary.scalar('learning_rate', learning_rate)
         return train_op
@@ -161,21 +161,14 @@ class NN(object):
         p = sess.run(self.pred, feed_dict=feed)
         return p
 
-def load(path):
-    all = np.load(path)
-    X = all["arr_0"]
-    y = all["arr_1"]
-    y1 = y.reshape(y.shape[0], y.shape[2])
-    return X, y1
-
 
 def main():
-    config = Config('/home/yunkunxu/Documents/GitHub/CS294/homework/hw1/expert_data/Reacher-v2.pkl')
+    config = Config('/home/yunkunxu/Documents/GitHub/CS294/homework/hw1/expert_data/HalfCheetah-v2.pkl')
 
     PROJECT_ROOT = os.path.dirname(os.path.realpath('__file__')) # 获取当前脚本所在目录
     # train_path = os.path.join(PROJECT_ROOT, "data/"+config.envname+".train.npz")
     train_log_path = os.path.join(PROJECT_ROOT, "log/train/")
-    logz.configure_output_dir(os.path.join(PROJECT_ROOT, "log/"+config.envname+"_BC_"+'rollout_20_hiddensize_128_512_64_dropout'))
+    logz.configure_output_dir(os.path.join(PROJECT_ROOT, "log/"+config.envname+"_BC_"+'rollout_20_hiddensize_128_512_64'))
 
     X_train = config.obs #debug
     y_train = config.actions
@@ -210,7 +203,7 @@ def main():
                     batch_x, batch_y = session.run([shuffle_batch_x, shuffle_batch_y])
                     loss = nn.train_on_batch(session, batch_x, batch_y, merged, train_writer, i)
                     i += 1
-                    if i % 50 == 0:
+                    if i % 1000 == 0:
                         print("step:", i, "loss:", loss)
                         saver.save(session, os.path.join(PROJECT_ROOT, "model/model.ckpt"), global_step=i)
             except tf.errors.OutOfRangeError: # #如果读取到文件队列末尾会抛出此异常
@@ -237,9 +230,10 @@ def main():
                         totalr += r
                         steps += 1
                         # if args.render:
-                        #     env.render()
+                            # env.render()
                         if steps >= config.max_steps:
                             break
+                    env.close()
                     returns.append(totalr)
 
                 # print('results for ', Config.envname)

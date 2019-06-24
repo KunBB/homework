@@ -2,14 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b33a71fe-b2d5-4fae-91c2-69465c2b8532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BehavioralCloning.py" beforeDir="false" afterPath="$PROJECT_DIR$/BehavioralCloning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAgger.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAgger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expert_data/HalfCheetah-v2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/expert_data/HalfCheetah-v2.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expert_data/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_expert.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_expert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BehavioralClonning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_100_hiddensize_128_256_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_100_hiddensize_128_256_64/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_256_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_256_64/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_512_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_512_64/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364444.yunkunxu-MS-7A69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364638.yunkunxu-MS-7A69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364753.yunkunxu-MS-7A69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364793.yunkunxu-MS-7A69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561365115.yunkunxu-MS-7A69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561365253.yunkunxu-MS-7A69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/model/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-100.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-100.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-100.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-150.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-150.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-150.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-200.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-200.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-200.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-250.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-250.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-250.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-300.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-300.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-300.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-310.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-310.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-310.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-320.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-320.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-320.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-330.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-330.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-330.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-340.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-340.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-340.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-350.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-350.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-350.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-360.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-360.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-360.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-370.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-370.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-370.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-380.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-380.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-380.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-390.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-390.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-390.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.ckpt-50.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.index" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.ckpt-50.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BehavioralCloning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-988">
-              <caret line="89" column="74" lean-forward="true" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
+            <state relative-caret-position="380">
+              <caret line="170" column="116" selection-start-line="170" selection-start-column="116" selection-end-line="170" selection-end-column="116" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -34,11 +86,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DAgger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3876">
-              <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+            <state relative-caret-position="722">
+              <caret line="236" column="39" selection-start-line="236" selection-start-column="39" selection-end-line="236" selection-end-column="39" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_expert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -63,6 +124,7 @@
       <find>FileWriter</find>
       <find>initialize</find>
       <find>summary</find>
+      <find>Reacher</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,9 +136,9 @@
         <option value="$PROJECT_DIR$/BC.py" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/BehavioralCloning.py" />
-        <option value="$PROJECT_DIR$/run_expert.py" />
         <option value="$PROJECT_DIR$/plot_kbb.py" />
+        <option value="$PROJECT_DIR$/run_expert.py" />
+        <option value="$PROJECT_DIR$/BehavioralCloning.py" />
         <option value="$PROJECT_DIR$/DAgger.py" />
       </list>
     </option>
@@ -315,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_expert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -332,20 +387,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot_kbb.py">
+    <entry file="file://$PROJECT_DIR$/plot_kbb.py" />
+    <entry file="file://$PROJECT_DIR$/run_expert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BehavioralCloning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="89" column="74" lean-forward="true" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
+        <state relative-caret-position="380">
+          <caret line="170" column="116" selection-start-line="170" selection-start-column="116" selection-end-line="170" selection-end-column="116" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -354,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DAgger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+        <state relative-caret-position="722">
+          <caret line="236" column="39" selection-start-line="236" selection-start-column="39" selection-end-line="236" selection-end-column="39" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
