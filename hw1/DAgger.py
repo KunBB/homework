@@ -263,7 +263,7 @@ def main():
                 # print("iter:", j, " train finished")
                 # print(Config.envname + " start")
 
-                rollouts = 1
+                rollouts = 20
                 returns = []
                 for _ in range(rollouts):
                     totalr, _ = run_env(env, nn, session, config, False)

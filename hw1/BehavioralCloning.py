@@ -12,12 +12,12 @@ class Config(object):
     def __init__(self,
                  filename,
                  dropout=0.5,
-                 hidden_size=[128,512,64],
+                 hidden_size=[128,256,64],
                  batch_size=256,
                  lr=0.0005,
                  itera=20,
                  train_itera=20,
-                 envname='HalfCheetah-v2',
+                 envname='Reacher-v2',
                  max_steps=1000):
         self.obs, self.actions = self._read_data(filename)
         self.n_features = self.obs.shape[1] # 状态特征数量
@@ -163,12 +163,12 @@ class NN(object):
 
 
 def main():
-    config = Config('/home/yunkunxu/Documents/GitHub/CS294/homework/hw1/expert_data/HalfCheetah-v2.pkl')
+    config = Config('/home/yunkunxu/Documents/GitHub/CS294/homework/hw1/expert_data/Reacher-v2.pkl')
 
     PROJECT_ROOT = os.path.dirname(os.path.realpath('__file__')) # 获取当前脚本所在目录
     # train_path = os.path.join(PROJECT_ROOT, "data/"+config.envname+".train.npz")
     train_log_path = os.path.join(PROJECT_ROOT, "log/train/")
-    logz.configure_output_dir(os.path.join(PROJECT_ROOT, "log/"+config.envname+"_BC_"+'rollout_20_hiddensize_128_512_64'))
+    logz.configure_output_dir(os.path.join(PROJECT_ROOT, "log/"+config.envname+"_BC_"+'rollout_20_hiddensize_128_256_64'))
 
     X_train = config.obs #debug
     y_train = config.actions

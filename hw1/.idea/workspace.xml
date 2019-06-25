@@ -2,66 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b33a71fe-b2d5-4fae-91c2-69465c2b8532" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BehavioralCloning.py" beforeDir="false" afterPath="$PROJECT_DIR$/BehavioralCloning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAgger.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAgger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expert_data/HalfCheetah-v2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/expert_data/HalfCheetah-v2.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/BehavioralClonning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_100_hiddensize_128_256_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_100_hiddensize_128_256_64/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HalfCheetah_BC.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/HalfCheetah_BC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HalfCheetah_DA.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/HalfCheetah_DA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Reacher_BC.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Reacher_BC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Reacher_DA.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Reacher_DA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/HalfCheetah-v2_DA_rollout_20_hiddensize_128_256_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/HalfCheetah-v2_DA_rollout_20_hiddensize_128_256_64/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_256_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_256_64/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_512_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/Reacher-v2_BC_rollout_20_hiddensize_128_512_64/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364444.yunkunxu-MS-7A69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364638.yunkunxu-MS-7A69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364753.yunkunxu-MS-7A69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561364793.yunkunxu-MS-7A69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561365115.yunkunxu-MS-7A69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/train/events.out.tfevents.1561365253.yunkunxu-MS-7A69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/model/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-100.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-100.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-100.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-150.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-150.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-150.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-200.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-200.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-200.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-250.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-250.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-250.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-300.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-300.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-300.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-310.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-310.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-310.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-320.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-320.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-320.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-330.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-330.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-330.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-340.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-340.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-340.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-350.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-350.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-350.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-360.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-360.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-360.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-370.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-370.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-370.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-380.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-380.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-380.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-390.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-390.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-390.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.ckpt-50.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.index" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.ckpt-50.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Reacher-v2_DA_rollout_20_hiddensize_128_256_64/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/Reacher-v2_DA_rollout_20_hiddensize_128_256_64/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1100.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1100.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1100.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1150.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1150.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1150.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1200.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1200.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1200.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1250.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1250.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1250.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1300.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1300.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1300.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1350.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1350.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1350.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1400.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1400.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1400.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1450.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1450.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1450.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1500.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1500.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1500.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1550.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1550.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-1550.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.ckpt-50.index" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BehavioralCloning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="170" column="116" selection-start-line="170" selection-start-column="116" selection-end-line="170" selection-end-column="116" />
+            <state relative-caret-position="251">
+              <caret line="216" column="47" selection-start-line="216" selection-start-column="47" selection-end-line="216" selection-end-column="47" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -86,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DAgger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="236" column="39" selection-start-line="236" selection-start-column="39" selection-end-line="236" selection-end-column="39" />
+            <state relative-caret-position="171">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -98,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_expert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state relative-caret-position="-190">
+              <caret line="5" column="98" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -390,15 +376,15 @@
     <entry file="file://$PROJECT_DIR$/plot_kbb.py" />
     <entry file="file://$PROJECT_DIR$/run_expert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="-190">
+          <caret line="5" column="98" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BehavioralCloning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="170" column="116" selection-start-line="170" selection-start-column="116" selection-end-line="170" selection-end-column="116" />
+        <state relative-caret-position="251">
+          <caret line="216" column="47" selection-start-line="216" selection-start-column="47" selection-end-line="216" selection-end-column="47" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -407,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DAgger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="236" column="39" selection-start-line="236" selection-start-column="39" selection-end-line="236" selection-end-column="39" />
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
